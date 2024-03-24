@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class numberSystems {
+public class NumberSystems {
     public static void main(String[] args) {
 
         String numberStr = JOptionPane.showInputDialog(null, "Enter an integer");
