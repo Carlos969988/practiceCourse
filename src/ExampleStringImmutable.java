@@ -1,4 +1,4 @@
-public class StringExampleImmutable {
+public class ExampleStringImmutable {
     public static void main(String[] args) {
 
         String course = "Java programming";

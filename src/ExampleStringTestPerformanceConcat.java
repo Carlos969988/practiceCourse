@@ -1,4 +1,4 @@
-public class StringExampleTestPerformanceConcat {
+public class ExampleStringTestPerformanceConcat {
     public static void main(String[] args) {
 
         String a = "a";
@@ -14,9 +14,12 @@ public class StringExampleTestPerformanceConcat {
              sb.append(a).append(b).append("\n");        // 500 -> 1ms
 ;        }
 
+        System.gc();
+
         long end = System.currentTimeMillis();
         System.out.println(end -start);
         System.out.println("c = " + c);
         System.out.println("sb = " + sb.toString());
+        System.exit(0);
     }
 }
